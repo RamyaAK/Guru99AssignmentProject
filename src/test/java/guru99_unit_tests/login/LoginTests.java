@@ -9,12 +9,14 @@ import org.testng.annotations.Test;
 public class LoginTests extends BaseTest {
     private String username;
     private String password;
+    private String managerId;
 
     @BeforeMethod
     public void initializeUserCredentials() {
         // Fetch credentials from system properties or use defaults
         this.username = PropertiesReader.getProperty("username");
         this.password = PropertiesReader.getProperty("password");
+        this.managerId= PropertiesReader.getProperty("manager_id");
     }
 
     @Test
@@ -31,7 +33,11 @@ public class LoginTests extends BaseTest {
         Assert.assertEquals(managerial_title, "Guru99 Bank Manager HomePage", "Login Page title mismatch!");
 
         // Verify if successful login message is displayed
-        String login_success_msg = loginPage.VerifyLoggedInSuccessfully();
+        String login_success_msg = loginPage.verifyLoggedInSuccessfully();
         Assert.assertEquals(login_success_msg, "Welcome To Manager's Page of Guru99 Bank", "Login success message mismatch!");
+
+        //Verify If ManagerId is being displayed
+        String managersId = loginPage.getManagerId();
+        Assert.assertEquals(managersId,"Manger Id : "+managerId);
     }
 }
