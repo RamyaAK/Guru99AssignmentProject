@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630182e4-583e-408c-ae01-acb4144c4643" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru99/abc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guru99_unit_tests/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru99_unit_tests/login/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +46,23 @@
   }
 }]]></component>
   <component name="RunManager" selected="TestNG.guru99_unit_tests">
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99AssignmentProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru99_unit_tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru99_unit_tests.login" />
+      <option name="MAIN_CLASS_NAME" value="guru99_unit_tests.login.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests.test_user_login_with_valid_UserCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Guru99AssignmentProject" />
       <extension name="coverage">
@@ -86,12 +107,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.LoginTests" />
       <item itemvalue="TestNG.LoginTests.test_user_login_with_valid_UserCredentials" />
       <item itemvalue="TestNG.guru99_unit_tests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.guru99_unit_tests" />
+        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.LoginTests.test_user_login_with_valid_UserCredentials" />
       </list>
     </recent_temporary>

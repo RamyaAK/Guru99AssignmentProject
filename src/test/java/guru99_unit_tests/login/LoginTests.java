@@ -1,5 +1,6 @@
 package guru99_unit_tests.login;
 
+import guru99.utils.PropertiesReader;
 import guru99_unit_tests.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -12,8 +13,8 @@ public class LoginTests extends BaseTest {
     @BeforeMethod
     public void initializeUserCredentials() {
         // Fetch credentials from system properties or use defaults
-        this.username = System.getProperty("user.username", "mngr614490");
-        this.password = System.getProperty("user.password", "qYsymed");
+        this.username = PropertiesReader.getProperty("username");
+        this.password = PropertiesReader.getProperty("password");
     }
 
     @Test
