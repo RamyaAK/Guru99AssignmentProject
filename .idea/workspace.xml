@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="630182e4-583e-408c-ae01-acb4144c4643" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru99/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru99/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru99/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru99/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guru99_unit_tests/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru99_unit_tests/login/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.guru99_unit_tests">
+  <component name="RunManager" selected="TestNG.LoginTests">
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Guru99AssignmentProject" />
       <extension name="coverage">
@@ -59,6 +59,24 @@
       <option name="PACKAGE_NAME" value="guru99_unit_tests.login" />
       <option name="MAIN_CLASS_NAME" value="guru99_unit_tests.login.LoginTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.test_user_login_with_invalid_username" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99AssignmentProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru99_unit_tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru99_unit_tests.login" />
+      <option name="MAIN_CLASS_NAME" value="guru99_unit_tests.login.LoginTests" />
+      <option name="METHOD_NAME" value="test_user_login_with_invalid_username" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -108,15 +126,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="guru99_unit_tests.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99AssignmentProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru99_unit_tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru99_unit_tests.login" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.LoginTests" />
+      <item itemvalue="TestNG.LoginTests.test_user_login_with_invalid_username" />
       <item itemvalue="TestNG.LoginTests.test_user_login_with_valid_UserCredentials" />
+      <item itemvalue="TestNG.guru99_unit_tests.login" />
       <item itemvalue="TestNG.guru99_unit_tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.guru99_unit_tests" />
         <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.guru99_unit_tests" />
+        <item itemvalue="TestNG.guru99_unit_tests.login" />
+        <item itemvalue="TestNG.LoginTests.test_user_login_with_invalid_username" />
         <item itemvalue="TestNG.LoginTests.test_user_login_with_valid_UserCredentials" />
       </list>
     </recent_temporary>
